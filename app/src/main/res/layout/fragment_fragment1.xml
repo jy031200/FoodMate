@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment1">
+
+
+    <TextView
+        android:id="@+id/TV_box1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category1_store1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/japanese_food1" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:text="생연어 전문점 연어집(관저점)"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 17,800원,  배달팁 0원 ~ 2,000원"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category1_store2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/mmmmmm" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="130dp"
+        android:text="인어공주와연일왕자"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 22,000원,  배달팁 2,000원"
+        android:layout_marginTop="131dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category1_store3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/japanese_food2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="130dp"
+        android:text="착한 세꼬시"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 25,000원,  배달팁 5,000원"
+        android:layout_marginTop="211dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category1_store4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/qqqqq" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="130dp"
+        android:text="고레카레 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 11,000원,  배달팁 2,000원 ~ 3,000원"
+        android:layout_marginTop="291dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category1_store5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="335dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/japanese_food3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="130dp"
+        android:text="가츠애"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 11,000원,  배달팁 2,000원"
+        android:layout_marginTop="371dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>

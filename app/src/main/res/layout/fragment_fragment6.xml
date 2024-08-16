@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment1">
+
+
+    <TextView
+        android:id="@+id/TV_box1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category4_store1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/wwwwww" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:text="진품돼지"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 28,000원,  배달팁 0원 ~ 3,000원"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category4_store2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/tttttt" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="130dp"
+        android:text="화로인"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 20,000원,  배달팁 2,000원"
+        android:layout_marginTop="131dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category4_store3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/late_night_meal5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="130dp"
+        android:text="장충동왕족발 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 15,000원,  배달팁 3,000원"
+        android:layout_marginTop="211dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category4_store4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/rrrrrrr" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="130dp"
+        android:text="마왕족발 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 25,000원,  배달팁 2,000원 ~ 2,500원"
+        android:layout_marginTop="291dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category4_store5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="335dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/eeeeee" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="130dp"
+        android:text="장수골왕족발보쌈"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 29,000원,  배달팁 2,000원"
+        android:layout_marginTop="371dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>

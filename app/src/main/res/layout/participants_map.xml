@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+
+    <com.naver.maps.map.MapView
+        android:id="@+id/map_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <Button
+            android:id="@+id/map_list_check"
+            android:layout_width="270pt"
+            android:layout_height="40pt"
+            android:background="@drawable/mapbutton"
+            android:backgroundTint="@color/green"
+            android:layout_marginTop="600pt"
+            android:layout_marginLeft="25pt"
+            android:text="모집글확인"
+            android:textColor="@color/white"
+            android:textSize="16pt"/>
+
+
+    </com.naver.maps.map.MapView>
+
+
+
+    <!-- 네이버 지도 -->
+
+
+
+
+</LinearLayout>

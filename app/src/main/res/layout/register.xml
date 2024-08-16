@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/btnnext"
+        android:layout_width="391dp"
+        android:layout_height="50dp"
+        android:background="@drawable/buttonline"
+        android:backgroundTint="@color/blue"
+        android:text="회원가입"
+        android:textColor="@color/white"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rnum" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="108dp"
+        android:background="@drawable/buttonline"
+        android:text="확인"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <EditText
+        android:id="@+id/raddress"
+        android:layout_width="391dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="주소"
+        android:inputType="textPostalAddress"
+        app:layout_constraintBottom_toTopOf="@+id/rphonenum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/btnnum"
+        android:layout_width="130dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="52dp"
+        android:background="@drawable/buttonline"
+        android:text="인증"
+        android:textColor="@color/blue"
+        app:layout_constraintBottom_toTopOf="@+id/btnok"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.97"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rnum"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="108dp"
+        android:ems="10"
+        android:hint="인증번호"
+        android:inputType="phone"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnok"
+        app:layout_constraintHorizontal_bias="0.48"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rid"
+        android:layout_width="391dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="아이디(이메일 형식으로 입력)"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/rpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rpassword"
+        android:layout_width="391dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="비밀번호(6자리 이상 입력)"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/rname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rnickname"
+        android:layout_width="391dp"
+        android:layout_height="48dp"
+        android:ems="10"
+        android:hint="닉네임"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/rid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.55"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.72" />
+
+    <EditText
+        android:id="@+id/rname"
+        android:layout_width="391dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="45dp"
+        android:ems="10"
+        android:hint="이름"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/raddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <EditText
+        android:id="@+id/rphonenum"
+        android:layout_width="248dp"
+        android:layout_height="48dp"
+        android:layout_marginBottom="44dp"
+        android:ems="10"
+        android:hint="휴대폰번호('-'없이 숫자만)"
+        android:inputType="phone"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toTopOf="@+id/rnum"
+        app:layout_constraintEnd_toStartOf="@+id/btnnum"
+        app:layout_constraintHorizontal_bias="0.36"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/txtregister"
+        android:layout_width="103dp"
+        android:layout_height="34dp"
+        android:text="회원가입"
+        android:textColor="@color/black"
+        android:textSize="13pt"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toTopOf="@+id/rnickname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.39" />
+
+    <TextView
+        android:id="@+id/textView49"
+        android:layout_width="53dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="96dp"
+        android:text="닉네임"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rnickname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView50"
+        android:layout_width="53dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="아이디"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rid"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.044"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView49"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView51"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="비밀번호"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rpassword"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView50"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView52"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="이름"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rname"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView51"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView55"
+        android:layout_width="35dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="주소"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/raddress"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.042"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView52"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView54"
+        android:layout_width="80dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="휴대폰번호"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rphonenum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.048"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView55"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <TextView
+        android:id="@+id/textView56"
+        android:layout_width="65dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="70dp"
+        android:text="인증번호"
+        android:textColor="@color/black"
+        android:textSize="8pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/rnum"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView54"
+        app:layout_constraintVertical_bias="1.0" />
+
+
+    <!--    <Button-->
+    <!--        android:id="@+id/btnnum"-->
+    <!--        android:layout_width="139dp"-->
+    <!--        android:layout_height="52dp"-->
+    <!--        android:layout_marginStart="9dp"-->
+    <!--        android:layout_marginTop="384dp"-->
+    <!--        android:layout_marginEnd="11dp"-->
+    <!--        android:layout_marginBottom="234dp"-->
+    <!--        android:text="인증번호받기"-->
+    <!--        app:layout_constraintBottom_toBottomOf="parent"-->
+    <!--        app:layout_constraintEnd_toEndOf="parent"-->
+    <!--        app:layout_constraintStart_toEndOf="@+id/rphonenum"-->
+    <!--        app:layout_constraintTop_toBottomOf="@+id/txtregister" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

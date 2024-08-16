@@ -1,0 +1,261 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="110dp"
+        android:layout_height="17dp"
+        android:layout_marginTop="32dp"
+        android:text="재은님(참여자)"
+        android:textSize="8pt"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.059"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/nestedScrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="74dp"
+        android:layout_marginBottom="100dp"
+        app:layout_constraintBottom_toTopOf="@+id/btn_create_recruitment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/view7"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/view8" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageView
+                    android:id="@+id/imageView"
+                    android:layout_width="57dp"
+                    android:layout_height="45dp"
+                    android:layout_marginStart="16dp"
+                    android:layout_marginBottom="8dp"
+                    android:layout_marginTop="8dp"
+                    android:layout_marginEnd="16dp"
+                    android:src="@drawable/store_logo" />
+
+                <TextView
+                    android:id="@+id/textView33"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginEnd="146dp"
+                    android:text="생연어 전문점 연어집"
+                    android:textColor="@color/black"
+                    android:textSize="9pt" />
+            </LinearLayout>
+
+            <View
+                android:id="@+id/view8"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/black" />
+
+            <ListView
+                android:id="@+id/listView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:fillViewport="true"
+                android:background="@drawable/buttonlineslteblue" />
+
+            <Button
+                android:id="@+id/btn_addmenu"
+                android:layout_width="275dp"
+                android:layout_height="45dp"
+                android:layout_marginStart="56dp"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/buttonlineblue"
+                android:text="+ 더 담으러 가기"
+                android:textColor="@color/white"
+                android:textSize="7pt" />
+
+            <View
+                android:id="@+id/view9"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_marginTop="15dp"
+                android:background="@color/black" />
+
+            <TextView
+                android:id="@+id/textView38"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="요청사항"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="25dp"
+                android:textColor="@color/black"
+                android:textSize="8pt" />
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="229dp"
+                android:background="@drawable/button_round"
+                android:layout_marginStart="16dp"
+                android:orientation="vertical">
+
+                <CheckBox
+                    android:id="@+id/checkBox1"
+                    android:layout_width="250dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="35dp"
+                    android:layout_marginTop="10dp"
+                    android:buttonTint="@color/SlateBlue"
+                    android:gravity="center"
+                    android:text="일회용 수저, 포크 안 주셔도 돼요"
+                    android:textSize="16dp" />
+
+                <CheckBox
+                    android:id="@+id/checkBox2"
+                    android:layout_width="230dp"
+                    android:layout_height="35dp"
+                    android:layout_marginStart="35dp"
+                    android:buttonTint="@color/SlateBlue"
+                    android:gravity="center"
+                    android:text="김치,단무지는 안 주셔도 돼요"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/textView40"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="65dp"
+                    android:text="이 외 반찬도 안 받고 싶다면, 요청사항에 적어주세요"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/textView41"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="15dp"
+                    android:text="가게 사장님께"
+                    android:textColor="@color/black"
+                    android:textSize="7pt" />
+
+                <EditText
+                    android:id="@+id/editTextText3"
+                    android:layout_width="347dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_round"
+                    android:ems="10"
+                    android:foregroundGravity="center"
+                    android:hint="요청사항이 있다면 입력하세요."
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textSize="6pt" />
+
+                <TextView
+                    android:id="@+id/textView43"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="라이더님께"
+                    android:textColor="@color/black"
+                    android:textSize="7pt" />
+
+                <EditText
+                    android:id="@+id/editTextText4"
+                    android:layout_width="347dp"
+                    android:layout_height="30dp"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginStart="20dp"
+                    android:background="@drawable/button_round"
+                    android:ems="10"
+                    android:foregroundGravity="center"
+                    android:hint="요청사항이 있다면 입력하세요."
+                    android:inputType="text"
+                    android:paddingLeft="10dp"
+                    android:textSize="6pt" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/textView44"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="25dp"
+                android:text="결제수단"
+                android:textColor="@color/black"
+                android:textSize="8pt" />
+
+            <LinearLayout
+                android:layout_width="376dp"
+                android:layout_height="109dp"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/button_round"
+                android:orientation="vertical">
+
+                <Spinner
+                    android:id="@+id/textView46"
+                    android:layout_width="240dp"
+                    android:layout_height="30dp"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="12dp"
+                    android:background="@drawable/button_round"
+                    android:entries="@array/payment_method"
+                    android:paddingLeft="5dp"
+                    android:paddingRight="5dp"
+                    android:textAlignment="center"
+                    android:textSize="8pt" />
+
+                <TextView
+                    android:id="@+id/textView47"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="10dp"
+                    android:text="주문금액: 13,800원(DB)"
+                    android:textSize="7pt" />
+
+                <TextView
+                    android:id="@+id/textView48"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="20dp"
+                    android:layout_marginTop="5dp"
+                    android:text="최소주문금액: 13,800원 / 17,800원"
+                    android:textSize="7pt" />
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    <Button
+        android:id="@+id/btn_create_recruitment"
+        android:layout_width="376dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="28dp"
+        android:background="@drawable/buttonlineblue"
+        android:text="모집글 작성"
+        android:textColor="@color/white"
+        android:textSize="7pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

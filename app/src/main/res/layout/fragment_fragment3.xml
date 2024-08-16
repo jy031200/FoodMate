@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragment1">
+
+
+    <TextView
+        android:id="@+id/TV_box1"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category3_store1"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="15dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/western_food3" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="130dp"
+        android:text="파스타입니다 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 9,500원,  배달팁 0원 ~ 1,800원"
+        android:layout_marginTop="51dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box2"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category3_store2"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="95dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/western_food4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:layout_marginStart="130dp"
+        android:text="착한파스타 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 8,000원,  배달팁 2,000원"
+        android:layout_marginTop="131dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box3"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="170dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category3_store3"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="175dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/western_food2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="180dp"
+        android:layout_marginStart="130dp"
+        android:text="도로시파스타 연정 관저점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 7,900원,  배달팁 500원 ~ 2,400원"
+        android:layout_marginTop="211dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box4"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="250dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category3_store4"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="255dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/western_food5" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="260dp"
+        android:layout_marginStart="130dp"
+        android:text="파스토보이 대전유성점"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 5,000원,  배달팁 5,000원 ~ 8,000원"
+        android:layout_marginTop="291dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/TV_box5"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:layout_marginTop="330dp"
+        android:background="@drawable/boxline"/>
+
+    <ImageView
+        android:id="@+id/imageview_category3_store5"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:scaleType="fitXY"
+        android:layout_marginTop="335dp"
+        android:layout_marginStart="20dp"
+        android:src="@drawable/school_food2" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:layout_marginStart="130dp"
+        android:text="파스타샵"
+        android:textSize="18sp"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="최소주문 15,500원,  배달팁 0원 ~ 2,500원"
+        android:layout_marginTop="371dp"
+        android:layout_marginStart="130dp"
+        android:textColor="@color/black"/>
+
+</FrameLayout>

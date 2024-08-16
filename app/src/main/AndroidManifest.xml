@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FM">
+
+        <meta-data
+            android:name="com.naver.maps.map.CLIENT_ID"
+            android:value="ve2bpq7et1" />
+
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".profile"/>
+
+        <!--        공통-->
+        <activity android:name=".LoginActivity"/>
+        <activity android:name=".RegisterActivity"/>
+        <activity android:name=".role_selection"/>
+        <activity android:name=".Participant_Receipt_"/>
+        <activity android:name=".order_Receipt_"/>
+
+        <!--        참여자-->
+        <activity android:name=".participant_popup"/>
+        <activity android:name=".participants_store_list" />
+        <activity android:name=".Popup_detail2" />
+        <activity android:name=".Paritipants_application_form_screen"/>
+        <activity android:name=".Participant_like"/>
+        <activity android:name=".participants_user_menu_list"/>
+        <activity android:name=".participants_payment_basket_screen"/>
+        <activity android:name=".order_participant"/>
+
+        <!--        주문자-->
+        <activity android:name=".order_orderer"/>
+        <activity android:name=".StorelistActivity"/>
+        <activity android:name=".orderer_payment_basket_screen"/>
+        <activity android:name=".order_user_menu_list"/>
+        <activity android:name=".orderer_recruitment2"/>
+
+        <!--        팝업-->
+        <activity android:name=".Popup_food" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_person" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_goal" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_time" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_like" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".Popup_participant" android:theme="@android:style/Theme.Dialog" />
+        <activity android:name=".order_Popup_creat" android:theme="@android:style/Theme.Dialog"/>
+        <activity android:name=".participants_map" />
+    </application>
+</manifest>

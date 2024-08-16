@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".startscreen">
+
+
+    <!--    android:textColor="#2196F3"-->
+
+    <Button
+        android:id="@+id/btnorder"
+        android:layout_width="365dp"
+        android:layout_height="89dp"
+        android:background="@drawable/buttonline"
+        android:drawableRight="@drawable/people2"
+        android:paddingLeft="58dp"
+        android:paddingRight="20dp"
+        android:paddingTop="5dp"
+        android:text="공동주문자를 구하세요?"
+        android:textColor="@color/blue"
+        android:textIsSelectable="false"
+        android:textSize="10pt"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/logo2"
+        android:layout_width="249dp"
+        android:layout_height="296dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.098"
+        app:srcCompat="@drawable/foodmate" />
+
+    <Button
+        android:id="@+id/btnparticipant"
+        android:layout_width="365dp"
+        android:layout_height="89dp"
+        android:background="@drawable/buttonline"
+        android:drawableLeft="@drawable/people1"
+        android:paddingLeft="20dp"
+        android:paddingRight="58dp"
+        android:paddingTop="5dp"
+        android:text="모집글 참여를 원하세요?"
+        android:textColor="@color/blue"
+        android:textSize="10pt"
+        android:textStyle="normal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.677" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

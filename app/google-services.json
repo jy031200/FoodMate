@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "981854580600",
+    "project_id": "fm-project-114b3",
+    "storage_bucket": "fm-project-114b3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981854580600:android:3b262605171ccd5780e28d",
+        "android_client_info": {
+          "package_name": "com.example.fm"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981854580600-67uq8oaj4104774m5ve1ds6adf4ajdo7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBzuj9px892uyC1plZuXQMd5wdjSZbrvDM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981854580600-67uq8oaj4104774m5ve1ds6adf4ajdo7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
